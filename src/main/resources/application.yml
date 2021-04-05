@@ -1,0 +1,15 @@
+ksqldb:
+  host: localhost
+  port: 8088
+
+generated:
+  data:
+    cats: 20
+    shrimps: 5
+    grid-size: 501
+    step: 50
+    movement: 10
+
+stream:
+  catsLocations: catsLocations
+  shrimpsLocations: shrimpsLocations
